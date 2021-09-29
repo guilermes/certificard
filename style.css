@@ -1,0 +1,222 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(240.85deg, #99ff00 23.96%, #6699ff 56.03%);
+}
+
+.container {
+  font-weight: 400;
+  background-color: #ecf4ff;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  font-color: #1c1c1c;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.foto {
+  margin-left: 200px;
+  margin: 20px;
+  max-height: 160px;
+  max-width: 160px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.social {
+  display: inline;
+  position: relative;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.linkedin {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.linkedin:hover {
+  max-height: 60px;
+  max-width: 60px;
+  transition: 0.5s;
+}
+
+.lattes {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.lattes:hover {
+  max-height: 60px;
+  max-width: 60px;
+  transition: 0.5s;
+}
+
+.instagram {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.instagram:hover {
+  max-height: 60px;
+  max-width: 60px;
+  transition: 0.5s;
+}
+
+.artstation {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.artstation:hover {
+  max-height: 60px;
+  max-width: 60px;
+  transition: 0.5s;
+}
+
+.github {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.github:hover {
+  max-height: 60px;
+  max-width: 60px;
+  transition: 0.5s;
+}
+
+.codepen {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.codepen:hover {
+  max-height: 60px;
+  max-width: 60px;
+  transition: 0.5s;
+}
+
+.projetos {
+  padding: 25px;
+  background: linear-gradient(-240.85deg, #99ff00 23.96%, #6699ff 56.03%);
+  border-radius: 20px;
+  align-items: center;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.lista li {
+  padding: 15px;
+}
+
+.lista .li a {
+  margin-down: 10px;
+}
+
+a:link {
+  color: #1c1c1c;
+  text-decoration: none;
+  transition: 1s;
+}
+
+a:hover {
+  font-size: 30px;
+  transition: 1s;
+}
+
+a:visited {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.botao {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background-color: #ecf4ff;
+  border-radius: 100px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  background: linear-gradient(-236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+  color: #ecf4ff;
+}
+
+.dark .lista li {
+  padding: 10px;
+}
+
+.dark .lista a {
+  color: #ecf4ff;
+}
+
+.dark .lista .li a {
+  margin-down: 5px;
+}
+
+.dark .botao {
+  background: #1c1c1c;
+  color: #ecf4ff;
+  border: 2px solid #ecf4ff;
+}
